@@ -1,5 +1,5 @@
 ---
-title: Template for Knowledge Base Docs Websites
+title: Digital marketing knowledge base 
 ---
 ## Main Categories
 - [[analytics-data/index|Analytics & Data]]
