@@ -8,4 +8,9 @@ title: Template for Knowledge Base Docs Websites
 - [[paid-advertising/index|Paid Advertising]]
 - [[seo/index|SEO]]
 - [[social-media/index|Social Media]]
+- [[social-media-metrics]]
+- [[inluencer-partnerships]]
+- [[community-management]]
+- [[content-calenders]]
+- [[short-form-video]]
 
