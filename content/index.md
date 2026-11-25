@@ -2,10 +2,10 @@
 title: Digital marketing knowledge base 
 ---
 ## Main Categories
-- [[analytics-data/index|Analytics & Data]]
-- [[content-marketing/index|Content Marketing]]
-- [[email-marketing/index|Email Marketing]]
-- [[paid-advertising/index|Paid Advertising]]
-- [[seo/index|SEO]]
-- [[social-media/index|Social Media]]
+- [[analytics-data/|Analytics & Data]]
+- [[content-marketing/|Content Marketing]]
+- [[email-marketing/|Email Marketing]]
+- [[paid-advertising/|Paid Advertising]]
+- [[seo/|SEO]]
+- [[social-media/|Social Media]]
 
