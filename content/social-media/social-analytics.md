@@ -1,1 +1,1 @@
-![[social-analytics. jpg.jpg]]
+![[social-analytics.jpg]]
