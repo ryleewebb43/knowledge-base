@@ -20,11 +20,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'true'
           fetch-depth: 0 # Fetch all history
+      - name: Clone Quartz
+        run: git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz
       - name: Apply configurations
         run: |
-          cp quartz.config.ts quartz.layout.ts quartz
+          cp quartz.config.ts quartz.layout.ts quartz/
+          rm -rf quartz/content/*
           cp -rf content/* quartz/content/
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -34,10 +36,10 @@ jobs:
           cache-dependency-path: quartz/package-lock.json
       - name: Install Node.js dependencies
         working-directory: quartz
-        run: npm ci --omit=dev
+        run: npm ci
       - name: Build website
-        run: npx quartz build
         working-directory: quartz
+        run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
