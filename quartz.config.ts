@@ -8,12 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "📖 Knowledge Base Docs",
+    pageTitle: "Digital marketing knowledge base",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "ggamel.github.io/template-knowledge-base-docs/",
+    baseUrl: "ryleewebb43.github.io/knowledge-base",
     ignorePatterns: ["private", "_templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
